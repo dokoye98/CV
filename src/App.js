@@ -5,8 +5,7 @@ import NavBar from "./components/NavBar.js"
 import MasterProject from "./components/MasterProject.js"
 import Experiences from "./components/Experiences.js"
 import Education from "./components/Education.js"
-import Footer from './components/Footer.js'
-import './App.css'
+
 function App() {
   return (
    <Router>
@@ -18,7 +17,7 @@ function App() {
         <Route path="/education" element={<Education/>}/>
         <Route path="/msc_project" element={<MasterProject/>}/>
       </Routes>
-      <Footer />
+ 
     </div>
    </Router>
   )
