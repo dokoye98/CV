@@ -1,0 +1,63 @@
+.master-project-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  .Susana  {
+  text-decoration: none;
+  color: #34495e; 
+  
+}
+
+.Susana :hover {
+  color: #3498db; 
+}
+  .master-project-container h1 {
+    color: #2c3e50; 
+    margin-bottom: 20px;
+  }
+  
+  .master-project-container h3 {
+    color: #34495e;
+    margin-bottom: 30px;
+  }
+  
+  .compiler {
+    margin: 20px 0;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .msc-image {
+    width: 200px; 
+    height: auto; 
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .msc-image:hover {
+    transform: scale(1.05);
+  }
+  
+  .project-summary {
+    margin-top: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ffffff; 
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #34495e; 
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
