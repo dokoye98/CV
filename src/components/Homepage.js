@@ -15,6 +15,7 @@ function Homepage() {
           <img src={profilePic} alt="D'wayne Okoye-Kachikwu" className="profile-pic" />
         </a>
       </div>
+      <p>Please click my profile pic</p>
       <h2>Languages and Technologies</h2>
       <ul className="skills-list">
         <li>Java, Python, C++, C#</li>
