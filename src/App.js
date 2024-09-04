@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar.js"
 import MasterProject from "./components/MasterProject.js"
 import Experiences from "./components/Experiences.js"
 import Education from "./components/Education.js"
+import Projects from "./components/Projects.js"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Homepage/>}/>
         <Route path="/experiences" element={<Experiences/>}/>
         <Route path="/education" element={<Education/>}/>
+        <Route path="/projects" element={<Projects/>}/>
         <Route path="/msc_project" element={<MasterProject/>}/>
       </Routes>
  

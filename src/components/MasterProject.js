@@ -13,12 +13,14 @@ function MasterProject(){
         <div className="master-project-container">
             <h1>MSc dissertation</h1>
             <div className="Susana">
+                <p>Click the image for description</p>
             <a href="https://github.com/dokoye98/Final_Compiler"
               target="_blank" 
               rel="noopener noreferrer">
             <h3>A Comprehensive Guide to Compiler Development: A Hybrid Python-Java Approach with Cloud Accessibility</h3>
             </a>
             </div>
+
         <div className="compiler"onClick={handleImageClick}>
             <img src={MScPic} alt="Compiler web app screenshot" className="MSc"/>
         </div>
