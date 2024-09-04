@@ -1,38 +1,107 @@
-.App {
+/* General Reset and Basic Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.experiences-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
   text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; 
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Responsive Layout for Images */
+.profile-pic-container {
+  margin: 20px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.profile-pic {
+  width: 100%;
+  max-width: 200px; /* Limit max width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Experience List and Items */
+.experience-list {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.experience-item {
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.experience-item h2 {
+  color: #34495e;
+  margin-bottom: 5px;
+}
+
+.experience-item h3 {
+  color: #7f8c8d;
+  margin-bottom: 10px;
+}
+
+.experience-item .date {
+  color: #95a5a6;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+/* Lists */
+.experience-item ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experience-item li {
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .experiences-container {
+    padding: 15px;
+  }
+
+  .experience-item {
+    padding: 15px;
+  }
+
+  .profile-pic {
+    max-width: 150px; /* Reduce size for smaller screens */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 480px) {
+  .experiences-container {
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .profile-pic {
+    max-width: 100px; /* Further reduce size for very small screens */
+  }
+
+  .experience-item {
+    padding: 10px;
+  }
+
+  .experience-item ul {
+    padding-left: 15px; /* Adjust padding for smaller screens */
   }
 }
