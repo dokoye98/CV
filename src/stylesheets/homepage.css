@@ -1,36 +1,55 @@
 .homepage-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  .profile-pic-container {
-    margin: 20px 0;
-  }
-  
-  .profile-pic {
-    width: 200px; 
-    height: 200px; 
-    object-fit: cover; 
-    border-radius: 50%; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.profile-pic-container {
+  margin: 20px 0;
+}
+
+.profile-pic {
+  width: 100%;
+  max-width: 200px; 
+  height: auto; 
+  object-fit: cover; 
+  border-radius: 50%; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.skills-list li {
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .skills-list {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-    max-width: 400px;
-    margin: 20px auto;
+    max-width: 100%;
+    padding: 0 15px;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .profile-pic {
+    max-width: 100px;
+  }
+
   .skills-list li {
-    background-color: #f4f4f4;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    margin: 8px 0;
   }
-  
+}
