@@ -6,7 +6,7 @@ import MasterProject from "./components/MasterProject.js"
 import Experiences from "./components/Experiences.js"
 import Education from "./components/Education.js"
 import Projects from "./components/Projects.js"
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
    <Router>
@@ -19,7 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects/>}/>
         <Route path="/msc_project" element={<MasterProject/>}/>
       </Routes>
- 
+    <Analytics/>
     </div>
    </Router>
   )
