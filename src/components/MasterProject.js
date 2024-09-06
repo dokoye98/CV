@@ -1,39 +1,70 @@
-import React,{useState} from "react"
-import MScPic from '../images/MScCompiler1.png'
+import React, { useState } from "react"
+import image1 from '../compilerImages/image1.png'
+import image2 from '../compilerImages/image2.png'
+import image3 from '../compilerImages/image3.png'
+import image4 from '../compilerImages/image4.png'
+import image5 from '../compilerImages/image5.png'
 import '../stylesheets/mscProject.css'
+const images = [image5,image1,image4,image3,image2]
+function Floors() {
+  const [isOpen, setIsOpen] = useState(false)
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  const handleImageClick = (image) => {
+    setCurrentIndex(image)
+    setIsOpen(true)
+  };
+
+  const handleClose = () => {
+    setIsOpen(false)
+
+  }
+  const showPrevImage = (e) =>{
+    e.stopPropagation()
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1))
+  }
+  const showNextImage = (e)=>{
+    e.stopPropagation()
+    setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1))
+  }
+
+  return (
+
+    
+      
 
 
-function MasterProject(){
-    const [isTextVisible, setTextVisible] = useState(false)
-
-    const handleImageClick = ()=>{
-        setTextVisible(!isTextVisible)
-    }
-    return(
-        <div className="master-project-container">
-            <h1>MSc dissertation</h1>
+    <div className="master-project-container">
+        <h1>MSc dissertation</h1>
             <div className="Susana">
-                <p>Click the image for description</p>
             <a href="https://github.com/dokoye98/Final_Compiler"
               target="_blank" 
               rel="noopener noreferrer">
             <h3>A Comprehensive Guide to Compiler Development: A Hybrid Python-Java Approach with Cloud Accessibility</h3>
             </a>
-            </div>
+        </div>
+         <div className="image-grid">
+        {images.map((image, index) => (
+          <img key={index} src={image} alt={`pic ${index + 1}`} onClick={() => handleImageClick(index)} />
+        ))}
+      </div>
+       <div className="image-grid">
+        {images.map((image, index) => (
+          <img key={index} src={image} alt={`pic ${index + 1}`} onClick={() => handleImageClick(index)} />
+        ))}
+      </div>
 
-        <div className="compiler"onClick={handleImageClick}>
-            <img src={MScPic} alt="Compiler web app screenshot" className="MSc"/>
+      
+      {isOpen && (
+        <div className="lightbox" onClick={handleClose}>
+          <img src={images[currentIndex]} alt="Full Screen" className="lightbox-image" />
+          <span className="lightbox-close" onClick={handleClose}>&times;</span>
+          <span className="lightbox-arrow left" onClick={showPrevImage}>&#10094;</span>
+          <span className="lightbox-arrow right" onClick={showNextImage}>&#10095;</span>
         </div>
-        
-            {isTextVisible && (
-                <div className="project-summary">
-            <p>The extact is the sample of the tokens generated for a = [1,2,3,5,61212,43,1]; int b = a[1]; int c = a[2];int e = b +c; print c</p>
-            <p>The report aims to develop a toy compiler using Python and Java, emphasizing education and accessibility for beginner programmers.</p>
-                
-                </div>
-        )}
-        
-        </div>
-    )
+      )}
+    </div>
+  )
 }
-export default MasterProject
+
+export default Floors
