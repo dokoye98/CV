@@ -16,16 +16,37 @@ function Homepage() {
         </a>
       </div>
       <p>Please click my profile pic</p>
-      <h2>Languages and Technologies</h2>
-      <ul className="skills-list">
-        <li>Java, Python, C++, C#</li>
-        <li>HTML, CSS, JavaScript, React</li>
-        <li>Node.js (Express, Nodemon)</li>
-        <li>MongoDB, MySQL</li>
-        <li>Git, Docker, Jenkins, Terraform, Kubernetes</li>
-        <li>TensorFlow, Matplotlib, Pandas</li>
-        <li>Selenium, Cucumber, SoapUI</li>
-      </ul>
+      <h2>Key Skills</h2>
+  
+  <h3>IT Technician Skills</h3>
+  <ul class="skills-list">
+    <li>Technical Troubleshooting and Diagnostics</li>
+    <li>Linux (Ubuntu)</li>
+    <li>Remote Support and Diagnostics</li>
+    <li>Hardware Configuration and System Setup</li>
+    <li>Network Configuration and IT Infrastructure</li>
+    <li>Microsoft Windows/Linux Server Management</li>
+    <li>Anti-Virus Software Management</li>
+    <li>Office 365 and Microsoft Azure</li>
+  </ul>
+
+  <h3>Web Development Skills</h3>
+  <ul class="skills-list">
+    <li>Frontend Development: HTML, CSS, JavaScript, React</li>
+    <li>Backend Development: Node.js (Express, Nodemon), Java</li>
+    <li>Database Management: MongoDB, MySQL</li>
+    <li>Version Control: Git</li>
+    <li>Containerisation: Docker & Kubernetes</li>
+    <li>Scripting and Automation: Python</li>
+  </ul>
+
+  <h3>DevOps and Deployment Tools</h3>
+<ul class="skills-list">
+  <li>Docker, Kubernetes</li>
+  <li>AWS, GCP</li>
+  <li>Jenkins, Terraform</li>
+</ul>
+
     </div>
   );
 }
