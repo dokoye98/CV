@@ -21,7 +21,7 @@ function Project(){
     target="_blank"
     rel="noopener noreferrer"
   >
-    <p>iT Troubleshooting Website Link</p>//This is a push check
+    <p>iT Troubleshooting Website Link</p>
   </a>
   <ul>
     <li>
