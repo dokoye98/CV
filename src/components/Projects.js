@@ -13,6 +13,21 @@ function Project(){
 
 
             <h2>Web Development</h2>
+
+            <h3>IT Troubleshooting Training <b>Live</b></h3>
+  <a
+    href="https://it-troubleshooting-client.vercel.app/account"
+    className="date"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <p>iT Troubleshooting Website Link</p>//This is a push check
+  </a>
+  <ul>
+    <li>
+      This website provides access to tests for various CompTIA certification 
+    </li>
+  </ul>
           <h3>Social media: Wave</h3>
   <a
     href="https://github.com/dokoye98/Wave-client"
