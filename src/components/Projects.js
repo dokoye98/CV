@@ -16,7 +16,7 @@ function Project(){
 
             <h3>IT Troubleshooting Training <b>Live</b></h3>
   <a
-    href="https://it-troubleshooting-client.vercel.app/account"
+    href="https://it-troubleshooting-client.vercel.app"
     className="date"
     target="_blank"
     rel="noopener noreferrer"
