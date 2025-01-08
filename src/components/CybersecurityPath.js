@@ -1,44 +1,43 @@
-import React, { useState } from "react"
+import React from "react";
+import '../stylesheets/CybersecurityPath.css'; 
 
+function CybersecurityPath() {
+  return (
+    <div className="experiences-container">
+      <div id="Comptia_A+"></div>
+      <div id="Network+">
+        <h2>CompTIA A+ Core 1 and 2</h2>
+        <a
+          href="https://github.com/dokoye98/CyberSecurityPath/tree/main/CompTIA%20A%2B%20Core%201%20and%202"
+          className="date"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>CompTIA A+ Core 1 and 2</p>
+        </a>
+        <ul>
+          <li>
+            This section displays my skills in software troubleshooting, focusing on issues related to operating systems, hardware, and networking. It includes my two internal certifications.
+          </li>
+        </ul>
 
-
-function CybersecurityPath(){
-
-
-    return(
-        <div>
-            <div id="Comptia_A+"></div>
-            <div id="Network+">
-            <h2>Web Development</h2>
-      <h3>IT Troubleshooting Training <b>Live</b></h3>
-      <a
-        href="https://it-troubleshooting-client.vercel.app"
-        className="date"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <p>IT Troubleshooting Website Link</p>
-      </a>
-      <ul>
-        <li>
-          This web-based platform offers users access to interactive tests designed to help them prepare for various CompTIA certifications, such as CompTIA A+, Network+, and Security+
-        </li>
-      </ul>
-      <p>Key Features</p>
-      <ul>
-        <li>
-          <b>CompTIA certification prep: </b> The website offers tests tailored to CompTIA certification objectives, helping users gauge their readiness for the official exams.
-        </li>
-        <li>
-          <b>User-Friendly Interface: </b> The platform has a simple, intuitive design, ensuring that users can easily navigate through tests and track their progress.
-        </li>
-        <li>
-          <b>GDPR Compliance: </b>User data is securely managed in line with GDPR regulations, ensuring privacy and security.
-        </li>
-      </ul>
-            </div>
-            
-        </div>
-    )
+        <h2>CompTIA Network+</h2>
+        <a
+          href="https://github.com/dokoye98/CyberSecurityPath/tree/main/CompTIA%20Networking%2B"
+          className="date"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>CompTIA Network+</p>
+        </a>
+        <ul>
+          <li>
+            This project showcases my experience with network configurations, including Cisco Packet Tracer simulations and my internal Network+ certification. The goal is to understand network infrastructure and troubleshooting.
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }
-export default CybersecurityPath
+
+export default CybersecurityPath;
