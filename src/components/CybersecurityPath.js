@@ -1,5 +1,5 @@
 import React from "react";
-import '../stylesheets/CybersecurityPath.css'; 
+import '../stylesheets/cybersecuritypath.css'
 
 function CybersecurityPath() {
   return (
