@@ -35,6 +35,20 @@ function CybersecurityPath() {
             This project showcases my experience with network configurations, including Cisco Packet Tracer simulations and my internal Network+ certification. The goal is to understand network infrastructure and troubleshooting.
           </li>
         </ul>
+        <h2>Microsoft Certified: Azure Fundamentals</h2>
+        <a
+          href="https://github.com/dokoye98/CyberSecurityPath/tree/main/Azure%20Fundamentals"
+          className="date"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Microsoft Azure Fundamentals</p>
+        </a>
+        <ul>
+          <li>
+            This certification demonstrates my understanding of cloud concepts, Azure services, security, governance, and cost management. The folder contains both my internal certification and the official Microsoft Certified Azure Fundamentals (earned on 21/02/2025).
+          </li>
+        </ul>
       </div>
     </div>
   );
