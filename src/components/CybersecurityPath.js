@@ -49,8 +49,23 @@ function CybersecurityPath() {
             This certification demonstrates my understanding of cloud concepts, Azure services, security, governance, and cost management. The folder contains both my internal certification and the official Microsoft Certified Azure Fundamentals (earned on 21/02/2025).
           </li>
         </ul>
+        <h2>ComTIA Security+</h2>
+        <a
+          href="https://github.com/dokoye98/CyberSecurityPath/tree/main/CompTIA%20Security%2B"
+          className="date"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>ComTIA Security+</p>
+        </a>
+        <ul>
+          <li>
+           This project showcases my understanding of security concepts, tools, and procedures. It also includes various Cybersecurity project I have completed.
+          </li>
+        </ul>
       </div>
     </div>
+    
   );
 }
 

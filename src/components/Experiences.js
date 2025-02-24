@@ -19,10 +19,20 @@ function Experiences() {
       <p>Please click my profile pic</p>
       <div className="experience-list">
         
+      <div className="experience-item">
+          <h2>Science Technician (Lead)</h2>
+          <h3>City Hieghts Secondary School</h3>
+          <p className="date">September 2024 - Present</p>
+          <ul>
+            <li>As the only science technician at the academy, I streamlined lab operations with the creation of the website EduLab which streamlined requisitions.</li>
+        
+            <li>Managed the daily operations of the science laboratory, ensuring all equipment was fully functional and experiments ran smoothly.</li>
+          </ul>
+        </div>
         <div className="experience-item">
           <h2>Web Data Coordinator</h2>
           <h3>Institute of Structural Engineersn</h3>
-          <p className="date">August 2024 - Present</p>
+          <p className="date">August 2024 - September 2024</p>
           <ul>
             <li>Reviewing and correcting data inconsistencies, formatting errors, and duplications in the migrated content to ensure it meets the required standards for publication.</li>
         
