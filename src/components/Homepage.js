@@ -16,7 +16,13 @@ function Homepage() {
         </a>
       </div>
       <p>Please click my profile pic</p>
-      <h2>Key Skills</h2>
+      <h2>Key Skills and Certifications</h2>
+      <h3>Certifications</h3>
+      <ul class="skills-list">
+      <li>Microsoft Certified: Azure Fundamentals</li> 
+        <li>Newto CompTIA A+ Certified Core 1 and 2</li>
+        <li>Newto CompTIA Network+ Certified</li>
+        </ul>
   
   <h3>IT Technician Skills</h3>
   <ul class="skills-list">
@@ -39,13 +45,6 @@ function Homepage() {
     <li>Containerisation: Docker & Kubernetes</li>
     <li>Scripting and Automation: Python</li>
   </ul>
-
-  <h3>DevOps and Deployment Tools</h3>
-<ul class="skills-list">
-  <li>Docker, Kubernetes</li>
-  <li>AWS, GCP</li>
-  <li>Jenkins, Terraform</li>
-</ul>
 
     </div>
   );
