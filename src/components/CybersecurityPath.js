@@ -8,7 +8,7 @@ function CybersecurityPath() {
       <div id="Network+">
         <h2>CompTIA A+ Core 1 and 2</h2>
         <a
-          href="https://github.com/dokoye98/CyberSecurityPath/tree/main/CompTIA%20A%2B%20Core%201%20and%202"
+          href="https://github.com/dokoye98/Cyber-Learning/tree/main/CompTIA%20A%2B%20Core%201%20and%202"
           className="date"
           target="_blank"
           rel="noopener noreferrer"
@@ -23,7 +23,7 @@ function CybersecurityPath() {
 
         <h2>CompTIA Network+</h2>
         <a
-          href="https://github.com/dokoye98/CyberSecurityPath/tree/main/CompTIA%20Networking%2B"
+          href="https://github.com/dokoye98/Cyber-Learning/tree/main/CompTIA%20Networking%2B"
           className="date"
           target="_blank"
           rel="noopener noreferrer"
@@ -35,23 +35,24 @@ function CybersecurityPath() {
             This project showcases my experience with network configurations, including Cisco Packet Tracer simulations and my internal Network+ certification. The goal is to understand network infrastructure and troubleshooting.
           </li>
         </ul>
-        <h2>Microsoft Certified: Azure Fundamentals</h2>
+        <h2>Azure Security</h2>
         <a
-          href="https://github.com/dokoye98/CyberSecurityPath/tree/main/Azure%20Fundamentals"
+          href="https://github.com/dokoye98/Cyber-Learning/tree/main/Azure%20Security"
           className="date"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <p>Microsoft Azure Fundamentals</p>
+          <p>Cloud Security</p>
         </a>
         <ul>
           <li>
-            This certification demonstrates my understanding of cloud concepts, Azure services, security, governance, and cost management. The folder contains both my internal certification and the official Microsoft Certified Azure Fundamentals (earned on 21/02/2025).
+           This folder contains all of my azure security related certifications and projects.
           </li>
         </ul>
+        
         <h2>ComTIA Security+</h2>
         <a
-          href="https://github.com/dokoye98/CyberSecurityPath/tree/main/CompTIA%20Security%2B"
+          href="https://github.com/dokoye98/Cyber-Learning/tree/main/CompTIA%20Security%2B"
           className="date"
           target="_blank"
           rel="noopener noreferrer"

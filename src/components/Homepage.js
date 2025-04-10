@@ -19,10 +19,24 @@ function Homepage() {
       <h2>Key Skills and Certifications</h2>
       <h3>Certifications</h3>
       <ul class="skills-list">
+        <li>Microsoft Certified: Security, Compliance, and Identity Fundamentals</li>
       <li>Microsoft Certified: Azure Fundamentals</li> 
         <li>Newto CompTIA A+ Certified Core 1 and 2</li>
         <li>Newto CompTIA Network+ Certified</li>
         </ul>
+        <h3>Security Skills</h3>
+<ul class="skills-list">
+  <li>Security Fundamentals: CIA Triad, Least Privilege, Risk Management</li>
+  <li>Log Review and Monitoring (Windows Event Viewer, basic SIEM concepts)</li>
+  <li>Identity & Access Management (IAM) with Active Directory</li>
+  <li>PowerShell Scripting for Security Auditing and Automation</li>
+  <li>Network Configuration and Monitoring (DNS, DHCP, NAT)</li>
+  <li>Incident Response and Threat Detection Concepts</li>
+  <li>Virtualized SOC Scenario Environments (VirtualBox, Kali Linux)</li>
+  <li>Cloud Security Principles (Microsoft Azure – SC-900 & AZ-900 Certified)</li>
+  <li>OS Hardening, GPO Configuration, and User Privilege Control</li>
+  <li>Phishing Simulations and Malware Containment Labs</li>
+</ul>
   
   <h3>IT Technician Skills</h3>
   <ul class="skills-list">
@@ -34,16 +48,6 @@ function Homepage() {
     <li>Microsoft Windows/Linux Server Management</li>
     <li>Anti-Virus Software Management</li>
     <li>Office 365 and Microsoft Azure</li>
-  </ul>
-
-  <h3>Web Development Skills</h3>
-  <ul class="skills-list">
-    <li>Frontend Development: HTML, CSS, JavaScript, React</li>
-    <li>Backend Development: Node.js (Express, Nodemon), Java</li>
-    <li>Database Management: MongoDB, MySQL</li>
-    <li>Version Control: Git</li>
-    <li>Containerisation: Docker & Kubernetes</li>
-    <li>Scripting and Automation: Python</li>
   </ul>
 
     </div>
